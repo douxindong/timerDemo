@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4913665A23725DBF00943F96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913665923725DBF00943F96 /* AppDelegate.m */; };
+		4913665D23725DBF00943F96 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913665C23725DBF00943F96 /* SceneDelegate.m */; };
+		4913666023725DBF00943F96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913665F23725DBF00943F96 /* ViewController.m */; };
+		4913666323725DBF00943F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4913666123725DBF00943F96 /* Main.storyboard */; };
+		4913666523725DC000943F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4913666423725DC000943F96 /* Assets.xcassets */; };
+		4913666823725DC000943F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4913666623725DC000943F96 /* LaunchScreen.storyboard */; };
+		4913666B23725DC000943F96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913666A23725DC000943F96 /* main.m */; };
+		4913667523725DC000943F96 /* timerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913667423725DC000943F96 /* timerDemoTests.m */; };
+		4913668023725DC000943F96 /* timerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913667F23725DC000943F96 /* timerDemoUITests.m */; };
+		4913668F2372616B00943F96 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913668E2372616B00943F96 /* ViewController1.m */; };
+		49136692237261E800943F96 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 49136691237261E800943F96 /* ViewControllerA.m */; };
+		491366962372623E00943F96 /* ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 491366942372623E00943F96 /* ViewControllers.m */; };
+		491366972372623E00943F96 /* ViewControllers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491366952372623E00943F96 /* ViewControllers.xib */; };
+		4913669A23726B0C00943F96 /* TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913669923726B0C00943F96 /* TimerManager.m */; };
+		62B47791125D3EBC4EBEFAE9 /* Pods_timerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D843786F129A4711144FCE03 /* Pods_timerDemoUITests.framework */; };
+		7FA461A3EB1DD0385AA8007B /* Pods_timerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3ECF38094FF1B371BA6C83 /* Pods_timerDemo.framework */; };
+		C2E5DEDDEA7303E8412BFD6B /* Pods_timerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6B9339567DE83CDAC6D18E /* Pods_timerDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4913667123725DC000943F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4913664D23725DBE00943F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4913665423725DBE00943F96;
+			remoteInfo = timerDemo;
+		};
+		4913667C23725DC000943F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4913664D23725DBE00943F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4913665423725DBE00943F96;
+			remoteInfo = timerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B3ECF38094FF1B371BA6C83 /* Pods_timerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301DC9CB95C652EC09255855 /* Pods-timerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timerDemo.debug.xcconfig"; path = "Target Support Files/Pods-timerDemo/Pods-timerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3882E33727240B1DC33467EB /* Pods-timerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-timerDemoTests/Pods-timerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4913665523725DBF00943F96 /* timerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4913665823725DBF00943F96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4913665923725DBF00943F96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4913665B23725DBF00943F96 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4913665C23725DBF00943F96 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4913665E23725DBF00943F96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4913665F23725DBF00943F96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4913666223725DBF00943F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4913666423725DC000943F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4913666723725DC000943F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4913666923725DC000943F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4913666A23725DC000943F96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4913667023725DC000943F96 /* timerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4913667423725DC000943F96 /* timerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timerDemoTests.m; sourceTree = "<group>"; };
+		4913667623725DC000943F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4913667B23725DC000943F96 /* timerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4913667F23725DC000943F96 /* timerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timerDemoUITests.m; sourceTree = "<group>"; };
+		4913668123725DC000943F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4913668D2372616B00943F96 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		4913668E2372616B00943F96 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		49136690237261E800943F96 /* ViewControllerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		49136691237261E800943F96 /* ViewControllerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		491366932372623E00943F96 /* ViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllers.h; sourceTree = "<group>"; };
+		491366942372623E00943F96 /* ViewControllers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllers.m; sourceTree = "<group>"; };
+		491366952372623E00943F96 /* ViewControllers.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllers.xib; sourceTree = "<group>"; };
+		4913669823726B0C00943F96 /* TimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
+		4913669923726B0C00943F96 /* TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerManager.m; sourceTree = "<group>"; };
+		6D4440893EFD48260C3C57A9 /* Pods-timerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timerDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-timerDemoUITests/Pods-timerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1E93175337C62E15D1980E /* Pods-timerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timerDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-timerDemoUITests/Pods-timerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6B9339567DE83CDAC6D18E /* Pods_timerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADCF2947869639FCBAD7B46 /* Pods-timerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timerDemo.release.xcconfig"; path = "Target Support Files/Pods-timerDemo/Pods-timerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D843786F129A4711144FCE03 /* Pods_timerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE0AFB6C08FF8A698586014 /* Pods-timerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-timerDemoTests/Pods-timerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4913665223725DBE00943F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA461A3EB1DD0385AA8007B /* Pods_timerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4913666D23725DC000943F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DEDDEA7303E8412BFD6B /* Pods_timerDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4913667823725DC000943F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B47791125D3EBC4EBEFAE9 /* Pods_timerDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4913664C23725DBE00943F96 = {
+			isa = PBXGroup;
+			children = (
+				4913665723725DBF00943F96 /* timerDemo */,
+				4913667323725DC000943F96 /* timerDemoTests */,
+				4913667E23725DC000943F96 /* timerDemoUITests */,
+				4913665623725DBF00943F96 /* Products */,
+				611449E704A59609DD2CD701 /* Pods */,
+				CFFDD0E68C191DA6B6316A9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4913665623725DBF00943F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4913665523725DBF00943F96 /* timerDemo.app */,
+				4913667023725DC000943F96 /* timerDemoTests.xctest */,
+				4913667B23725DC000943F96 /* timerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4913665723725DBF00943F96 /* timerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4913665823725DBF00943F96 /* AppDelegate.h */,
+				4913665923725DBF00943F96 /* AppDelegate.m */,
+				4913665B23725DBF00943F96 /* SceneDelegate.h */,
+				4913665C23725DBF00943F96 /* SceneDelegate.m */,
+				4913665E23725DBF00943F96 /* ViewController.h */,
+				4913665F23725DBF00943F96 /* ViewController.m */,
+				4913668D2372616B00943F96 /* ViewController1.h */,
+				4913668E2372616B00943F96 /* ViewController1.m */,
+				49136690237261E800943F96 /* ViewControllerA.h */,
+				49136691237261E800943F96 /* ViewControllerA.m */,
+				491366932372623E00943F96 /* ViewControllers.h */,
+				491366942372623E00943F96 /* ViewControllers.m */,
+				4913669823726B0C00943F96 /* TimerManager.h */,
+				4913669923726B0C00943F96 /* TimerManager.m */,
+				491366952372623E00943F96 /* ViewControllers.xib */,
+				4913666123725DBF00943F96 /* Main.storyboard */,
+				4913666423725DC000943F96 /* Assets.xcassets */,
+				4913666623725DC000943F96 /* LaunchScreen.storyboard */,
+				4913666923725DC000943F96 /* Info.plist */,
+				4913666A23725DC000943F96 /* main.m */,
+			);
+			path = timerDemo;
+			sourceTree = "<group>";
+		};
+		4913667323725DC000943F96 /* timerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4913667423725DC000943F96 /* timerDemoTests.m */,
+				4913667623725DC000943F96 /* Info.plist */,
+			);
+			path = timerDemoTests;
+			sourceTree = "<group>";
+		};
+		4913667E23725DC000943F96 /* timerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4913667F23725DC000943F96 /* timerDemoUITests.m */,
+				4913668123725DC000943F96 /* Info.plist */,
+			);
+			path = timerDemoUITests;
+			sourceTree = "<group>";
+		};
+		611449E704A59609DD2CD701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301DC9CB95C652EC09255855 /* Pods-timerDemo.debug.xcconfig */,
+				CADCF2947869639FCBAD7B46 /* Pods-timerDemo.release.xcconfig */,
+				ECE0AFB6C08FF8A698586014 /* Pods-timerDemoTests.debug.xcconfig */,
+				3882E33727240B1DC33467EB /* Pods-timerDemoTests.release.xcconfig */,
+				7A1E93175337C62E15D1980E /* Pods-timerDemoUITests.debug.xcconfig */,
+				6D4440893EFD48260C3C57A9 /* Pods-timerDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFFDD0E68C191DA6B6316A9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B3ECF38094FF1B371BA6C83 /* Pods_timerDemo.framework */,
+				BE6B9339567DE83CDAC6D18E /* Pods_timerDemoTests.framework */,
+				D843786F129A4711144FCE03 /* Pods_timerDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4913665423725DBE00943F96 /* timerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4913668423725DC000943F96 /* Build configuration list for PBXNativeTarget "timerDemo" */;
+			buildPhases = (
+				D87FEFB426796F640ED3E0A8 /* [CP] Check Pods Manifest.lock */,
+				4913665123725DBE00943F96 /* Sources */,
+				4913665223725DBE00943F96 /* Frameworks */,
+				4913665323725DBE00943F96 /* Resources */,
+				B29BA5F5C8B034400200E6ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timerDemo;
+			productName = timerDemo;
+			productReference = 4913665523725DBF00943F96 /* timerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4913666F23725DC000943F96 /* timerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4913668723725DC000943F96 /* Build configuration list for PBXNativeTarget "timerDemoTests" */;
+			buildPhases = (
+				A04C06969EC6CED1C0C8B4C1 /* [CP] Check Pods Manifest.lock */,
+				4913666C23725DC000943F96 /* Sources */,
+				4913666D23725DC000943F96 /* Frameworks */,
+				4913666E23725DC000943F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4913667223725DC000943F96 /* PBXTargetDependency */,
+			);
+			name = timerDemoTests;
+			productName = timerDemoTests;
+			productReference = 4913667023725DC000943F96 /* timerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4913667A23725DC000943F96 /* timerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4913668A23725DC000943F96 /* Build configuration list for PBXNativeTarget "timerDemoUITests" */;
+			buildPhases = (
+				C27B9752E6F8FE802FCDFE33 /* [CP] Check Pods Manifest.lock */,
+				4913667723725DC000943F96 /* Sources */,
+				4913667823725DC000943F96 /* Frameworks */,
+				4913667923725DC000943F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4913667D23725DC000943F96 /* PBXTargetDependency */,
+			);
+			name = timerDemoUITests;
+			productName = timerDemoUITests;
+			productReference = 4913667B23725DC000943F96 /* timerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4913664D23725DBE00943F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = lifevc;
+				TargetAttributes = {
+					4913665423725DBE00943F96 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4913666F23725DC000943F96 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4913665423725DBE00943F96;
+					};
+					4913667A23725DC000943F96 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4913665423725DBE00943F96;
+					};
+				};
+			};
+			buildConfigurationList = 4913665023725DBE00943F96 /* Build configuration list for PBXProject "timerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4913664C23725DBE00943F96;
+			productRefGroup = 4913665623725DBF00943F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4913665423725DBE00943F96 /* timerDemo */,
+				4913666F23725DC000943F96 /* timerDemoTests */,
+				4913667A23725DC000943F96 /* timerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4913665323725DBE00943F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4913666823725DC000943F96 /* LaunchScreen.storyboard in Resources */,
+				4913666523725DC000943F96 /* Assets.xcassets in Resources */,
+				491366972372623E00943F96 /* ViewControllers.xib in Resources */,
+				4913666323725DBF00943F96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4913666E23725DC000943F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4913667923725DC000943F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A04C06969EC6CED1C0C8B4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29BA5F5C8B034400200E6ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timerDemo/Pods-timerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timerDemo/Pods-timerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timerDemo/Pods-timerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27B9752E6F8FE802FCDFE33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87FEFB426796F640ED3E0A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4913665123725DBE00943F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4913668F2372616B00943F96 /* ViewController1.m in Sources */,
+				4913666023725DBF00943F96 /* ViewController.m in Sources */,
+				49136692237261E800943F96 /* ViewControllerA.m in Sources */,
+				4913665A23725DBF00943F96 /* AppDelegate.m in Sources */,
+				4913666B23725DC000943F96 /* main.m in Sources */,
+				4913669A23726B0C00943F96 /* TimerManager.m in Sources */,
+				491366962372623E00943F96 /* ViewControllers.m in Sources */,
+				4913665D23725DBF00943F96 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4913666C23725DC000943F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4913667523725DC000943F96 /* timerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4913667723725DC000943F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4913668023725DC000943F96 /* timerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4913667223725DC000943F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4913665423725DBE00943F96 /* timerDemo */;
+			targetProxy = 4913667123725DC000943F96 /* PBXContainerItemProxy */;
+		};
+		4913667D23725DC000943F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4913665423725DBE00943F96 /* timerDemo */;
+			targetProxy = 4913667C23725DC000943F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4913666123725DBF00943F96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4913666223725DBF00943F96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4913666623725DC000943F96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4913666723725DC000943F96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4913668223725DC000943F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4913668323725DC000943F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4913668523725DC000943F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301DC9CB95C652EC09255855 /* Pods-timerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LU4PEC2RN;
+				INFOPLIST_FILE = timerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.timerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4913668623725DC000943F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADCF2947869639FCBAD7B46 /* Pods-timerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LU4PEC2RN;
+				INFOPLIST_FILE = timerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.timerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4913668823725DC000943F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE0AFB6C08FF8A698586014 /* Pods-timerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.timerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timerDemo.app/timerDemo";
+			};
+			name = Debug;
+		};
+		4913668923725DC000943F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3882E33727240B1DC33467EB /* Pods-timerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.timerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timerDemo.app/timerDemo";
+			};
+			name = Release;
+		};
+		4913668B23725DC000943F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1E93175337C62E15D1980E /* Pods-timerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.timerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timerDemo;
+			};
+			name = Debug;
+		};
+		4913668C23725DC000943F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4440893EFD48260C3C57A9 /* Pods-timerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.timerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4913665023725DBE00943F96 /* Build configuration list for PBXProject "timerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4913668223725DC000943F96 /* Debug */,
+				4913668323725DC000943F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4913668423725DC000943F96 /* Build configuration list for PBXNativeTarget "timerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4913668523725DC000943F96 /* Debug */,
+				4913668623725DC000943F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4913668723725DC000943F96 /* Build configuration list for PBXNativeTarget "timerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4913668823725DC000943F96 /* Debug */,
+				4913668923725DC000943F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4913668A23725DC000943F96 /* Build configuration list for PBXNativeTarget "timerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4913668B23725DC000943F96 /* Debug */,
+				4913668C23725DC000943F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4913664D23725DBE00943F96 /* Project object */;
+}

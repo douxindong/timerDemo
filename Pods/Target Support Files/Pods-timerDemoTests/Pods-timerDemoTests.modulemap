@@ -1,0 +1,6 @@
+framework module Pods_timerDemoTests {
+  umbrella header "Pods-timerDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
